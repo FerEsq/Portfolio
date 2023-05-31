@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 0 30px;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+
+  .icon {
+    img {
+      cursor: pointer;
+      width: 70px;
+      margin: 0;
+      left: 30px;
+    }
+  }
+
+  svg {
+    cursor: pointer;
+    margin-top: 3px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+
+#menu-icon {
+  opacity: 0;
+}
+#menu-icon:checked + .menu-button > span {
+  transform: rotate(45deg);
+}
+#menu-icon:checked + .menu-button > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu-icon:checked + .menu-button > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu-icon:checked ~ .menu__box {
+  right: 0 !important;
+}
+.menu-button {
+  position: absolute;
+  top: 35px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu-button > span,
+.menu-button > span::before,
+.menu-button > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #226946;
+  transition-duration: .25s;
+}
+.menu-button > span::before {
+  content: '';
+  top: -8px;
+}
+.menu-button > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #BEDCFE;
+  opacity: 0.5;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+}
+.menu-item {
+  cursor: pointer;
+  display: block;
+  padding: 0px 15px;
+  color: #01381C;
+  opacity: 100;
+  font-family: 'novatica';
+  font-size: 35px;
+  text-decoration: none;
+  transition-duration: .25s;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+
+

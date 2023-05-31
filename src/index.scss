@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'novatica'
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'novatica-bold';
+  src: url('./fonts/Novatica-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'novatica-medium';
+  src: url('./fonts/Novatica-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'novatica';
+  src: url('./fonts/Novatica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'novatica-light';
+  src: url('./fonts/Novatica-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}

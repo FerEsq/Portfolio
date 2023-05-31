@@ -1,21 +1,23 @@
-import './App.css';
+import './App.scss';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header> <NavBar/> </header>
+      
+      <div className='about' id='div-about'> About </div>
+      <br/>
+
+      <div className='languages' id='div-languages'> Languages </div>
+      <br/>
+
+      <div className='projects' id='div-projects'> Projects </div>
+      <br/>
+
+      <div className='contact' id='div-contact'> Contact </div>
+      <br/>
+      
     </div>
   );
 }
