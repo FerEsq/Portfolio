@@ -1,0 +1,57 @@
+.home {
+    text-align: center;
+}
+
+.title {
+    h1 {
+        font-family: 'novatica-bold';
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    h2 {
+        font-family: 'novatica-light';
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+.animation {
+    margin-top: 50px;
+
+    .notes {
+        height: 50px;
+
+        .animated-note {
+            width: 30px;
+            animation: slide 2s infinite;
+          }
+          
+          @keyframes slide {
+            0% {
+                transform: rotate(-30deg);
+                transform: translateY(50%);
+            }
+            50% {
+                transform: rotate(-30deg);
+                opacity: 1;
+            }
+            100% {
+                transform: rotate(-30deg);
+                transform: translateY(-50%);
+                opacity: 0;
+            }
+          }
+    }
+
+    .animated-me {
+        width: 250px;
+        animation: rotation 2s infinite;
+    }
+      
+    @keyframes rotation {
+        0% { transform: rotate(-5deg); }
+        50% { transform: rotate(5deg); }
+        100% { transform: rotate(-5deg); }
+    }
+    
+}

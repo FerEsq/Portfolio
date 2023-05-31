@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import '../styles/navbar.scss';
+import '../styles/navbar.scss'
 import icon from '../media/icon.png'
 
 function NavBar() {
@@ -9,10 +9,10 @@ function NavBar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const currentScroll = window.pageYOffset;
+            const currentScroll = window.pageYOffset
             const visible = scroll > currentScroll || currentScroll < 10;
-            setShowed(visible);
-            setScroll(currentScroll);
+            setShowed(visible)
+            setScroll(currentScroll)
         };
 
         window.addEventListener('scroll', handleScroll)
@@ -20,15 +20,15 @@ function NavBar() {
     }, [scroll])
 
     const handleNavigation =(divID)=>{
-        const div = document.getElementById(divID);
-        div.scrollIntoView({ behavior: 'smooth'});
+        const div = document.getElementById(divID)
+        div.scrollIntoView({ behavior: 'smooth'})
     }
 
   return (
     <div>
         <nav className="navbar" style={{ display: showed ? 'flex' : 'none' }}>
             <div className="icon">
-                <img src={icon} alt='icon'/> 
+                <img src={icon} alt='icon' onClick={()=>handleNavigation('div-home')}/> 
             </div>
 
             <div class="hamburger-menu">
@@ -38,10 +38,10 @@ function NavBar() {
                 </label>
 
                 <ul class="menu__box">
-                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-about')}> About </p></li>
-                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-languages')}> Languages </p></li>
-                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-projects')}> Projects </p></li>
-                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-contact')}> Contact </p></li>
+                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-about')}> Sobre mi </p></li>
+                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-languages')}> Lenguajes </p></li>
+                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-projects')}> Proyectos </p></li>
+                    <li> <p class="menu-item" onClick={()=>handleNavigation('div-contact')}> Contacto </p></li>
                 </ul>
             </div>
         </nav>

@@ -1,10 +1,14 @@
 import './App.scss';
 import NavBar from './components/NavBar';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
       <header> <NavBar/> </header>
+
+      <div className='home' id='div-home'> <Home/> </div>
+      <br/>
       
       <div className='about' id='div-about'> About </div>
       <br/>
