@@ -76,6 +76,7 @@
   top: 8px;
 }
 .menu__box {
+  text-align: center;
   display: block;
   position: fixed;
   top: 0;
@@ -86,7 +87,6 @@
   padding: 80px 0;
   list-style: none;
   background-color: #BEDCFE;
-  opacity: 0.5;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
 }
@@ -94,7 +94,7 @@
   cursor: pointer;
   display: block;
   padding: 0px 15px;
-  color: #01381C;
+  color: #226946;
   opacity: 100;
   font-family: 'novatica';
   font-size: 35px;

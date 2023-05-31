@@ -1,16 +1,17 @@
 .home {
     text-align: center;
+    height: fit-content;
 }
 
 .title {
     h1 {
         font-family: 'novatica-bold';
-        font-size: 35px;
+        font-size: 200%;
         letter-spacing: 1px;
     }
     h2 {
         font-family: 'novatica-light';
-        font-size: 25px;
+        font-size: 125%;
         letter-spacing: 1px;
     }
 }

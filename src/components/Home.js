@@ -16,6 +16,7 @@ function Home() {
                 <img className='animated-note' src={note} alt='note' />
             </div>
             <img className='animated-me' src={me} alt='me' />
+            <br/> <br/> <br/>
         </div>
     </div>
   )
