@@ -35,7 +35,7 @@ function About() {
                 Creo interfaces agradables para los usuarios
                 con elementos que las hacen estéticas.
             </p>
-            <br/>
+            <br/> <br/>
           </div>
 
           <div className='feature'> 
@@ -46,7 +46,7 @@ function About() {
                 Creo la lógica detras del funcionamiento de una 
                 aplicación o página web.
             </p>
-            <br/> <br/>
+            <br/> <br/> <br/>
           </div>
         </div>
     </div>
