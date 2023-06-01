@@ -18,6 +18,7 @@ function About() {
 
         <div className='features'> 
           <div className='feature'> 
+            <div className='separator'> </div>
             <div className='circle'> <img src={grad} alt='grad' /> </div>
             <h1> Estudiante </h1>
             <p> 
@@ -25,7 +26,9 @@ function About() {
                 en la Universidad del Valle de Guatemala.
             </p>
           </div>
+
           <div className='feature'> 
+            <div className='separator'> </div>
             <div className='circle'> <img src={atom} alt='front'/> </div>
             <h1> Frontend </h1>
             <p> 
@@ -34,7 +37,9 @@ function About() {
             </p>
             <br/>
           </div>
+
           <div className='feature'> 
+            <div className='separator'> </div>
             <div className='circle'> <img src={mug} alt='back'/> </div>
             <h1> Backend </h1>
             <p> 

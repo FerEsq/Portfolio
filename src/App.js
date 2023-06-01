@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Languages from './components/Languages';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
       <div id='div-languages'> <Languages/> </div>
       <br/>
 
-      <div className='projects' id='div-projects'> Projects </div>
+      <div id='div-projects'> <Projects/> </div>
       <br/>
 
       <div className='contact' id='div-contact'> Contact </div>

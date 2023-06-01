@@ -55,6 +55,7 @@ function Languages() {
           </div>
           
         </div>
+        <hr/>
 
     </div>
   )
