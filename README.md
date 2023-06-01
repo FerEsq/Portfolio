@@ -12,9 +12,14 @@
     npm install
   ```  
   
-  Para inicial el proyecto en modo *developer*, el directorio del proyecto, correr el comando:
+  Para iniciar el proyecto en modo *developer*, en el directorio del proyecto, correr el comando:
   ```bash
     npm start
+  ```
+  
+  Para crear un build del proyecto en modo *production*, en el directorio del proyecto, correr el comando:
+  ```bash
+    npm run build
   ```
 
 ## Estructura del proyecto
@@ -23,10 +28,10 @@
   Aquí se encuentran los componentes del proyecto.
 
   ### font
-  Aquí se encuentran las fuenets del proyecto. La fuente utilizada es [Novatica](https://fonts.adobe.com/fonts/bc-novatica). 
+  Aquí se encuentran las fuentes del proyecto. La fuente utilizada es [Novatica](https://fonts.adobe.com/fonts/bc-novatica). 
 
   ### media
-  Aquí se encuentra la multimedia del proyecto (imagenes, logos, etc...).
+  Aquí se encuentra la multimedia del proyecto (imagenes, iconos, logos, etc...).
 
   ### styles
   Aquí se encuentran los estilos del proyecto en scss.
