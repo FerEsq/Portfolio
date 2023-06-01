@@ -1,0 +1,64 @@
+.dcontact {
+    text-align: center;
+    background-color: #226946;
+    height: fit-content;
+}
+
+.texto {
+    h1 {
+        padding: 50px 5% 30px 5%;
+        color: white;
+        font-family: 'novatica-bold';
+        font-size: 180%;
+        letter-spacing: 1px;
+    }
+
+    p {
+        padding: 0px 15% 50px 15%;
+        color: white;
+        font-family: 'novatica';
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 70px 0px;
+
+    button {
+        background-color: #226946;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2px solid white;
+        cursor: pointer;
+        color: white;
+        font-size:20px;
+        font-family: 'novatica';
+        font-size: 100%;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+
+        svg {
+            width: 50px;
+        }
+
+        &:hover {
+            background-color: white;
+            color: #226946;
+
+            svg {
+                fill: #226946;
+            }
+        }
+    }
+
+    
+}
