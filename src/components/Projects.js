@@ -8,6 +8,12 @@ import p5 from '../media/p5.png'
 import p6 from '../media/p6.png'
 
 export default function Projects() {
+
+    const handleNavigation =(divID)=>{
+        const div = document.getElementById(divID)
+        div.scrollIntoView({ behavior: 'smooth'})
+    }
+    
   return (
     <div className='projects'>
         <div className='text-title'> 
@@ -51,7 +57,7 @@ export default function Projects() {
           <div className='card'> 
             <img src={p6} alt='p6'/> 
             <p> Mi portafolio hecho con React. </p>
-            <a href='https://p3-stw.web.app/'> <button> Visitar </button> </a>
+            <a> <button onClick={()=>handleNavigation('div-home')}> Visitar </button> </a>
           </div>
           
         </div>
