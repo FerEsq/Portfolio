@@ -29,7 +29,6 @@ function App() {
       <br/>
 
       <div id='div-contact'> <Contact/> </div>
-      <br/>
       
     </div>
   );

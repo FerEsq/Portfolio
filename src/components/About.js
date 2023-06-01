@@ -22,7 +22,7 @@ function About() {
             <div className='circle'> <img src={grad} alt='grad' /> </div>
             <h1> Estudiante </h1>
             <p> 
-                Soy de Ingeniería en Ciencias de la Computación
+                Soy estudiante de 5to semestre de Ingeniería en Ciencias de la Computación
                 en la Universidad del Valle de Guatemala.
             </p>
           </div>
