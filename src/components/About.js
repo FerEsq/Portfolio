@@ -10,9 +10,9 @@ function About() {
         <div className='text'> 
           <h1> Hola! Soy Fernanda Esquivel. </h1>
           <p> 
-          Soy una desarrolladora enfocada tanto en el ámbito del backend como del frontend, 
-          con una amplia experiencia en la creación de aplicaciones y páginas web de alto rendimiento e
-          interfaces de usuario atractivas.
+          Soy una desarrolladora enfocada en la programación frontend y backend y en el desarrollo y dirrección de proyectos.
+          Cuento con una amplia experiencia en la creación de aplicaciones, páginas web de alto rendimiento e
+          interfaces de usuario atractivas además de dirrección de proyectos y equipos de trabajo.
           </p>
         </div>
 
@@ -22,31 +22,34 @@ function About() {
             <div className='circle'> <img src={grad} alt='grad' /> </div>
             <h1> Estudiante </h1>
             <p> 
-                Soy estudiante de 5to semestre de Ingeniería en Ciencias de la Computación
-                en la Universidad del Valle de Guatemala.
+                Soy estudiante de 7mo semestre de Ingeniería en Ciencias de la Computación
+                en la Universidad del Valle de Guatemala. 
             </p>
-          </div>
-
-          <div className='feature'> 
-            <div className='separator'> </div>
-            <div className='circle'> <img src={atom} alt='front'/> </div>
-            <h1> Frontend </h1>
-            <p> 
-                Creo interfaces agradables para los usuarios
-                con elementos que las hacen estéticas.
-            </p>
-            <br/> <br/>
+            <br/> <br/> <br/>
           </div>
 
           <div className='feature'> 
             <div className='separator'> </div>
             <div className='circle'> <img src={mug} alt='back'/> </div>
-            <h1> Backend </h1>
+            <h1> Programación frontend y backend </h1>
             <p> 
-                Creo la lógica detras del funcionamiento de una 
+                Creo interfaces agradables para los usuarios
+                con elementos que las hacen estéticas y 
+                creo la lógica detras del funcionamiento de una 
                 aplicación o página web.
             </p>
-            <br/> <br/> <br/>
+            <br/>
+          </div>
+
+          <div className='feature'> 
+            <div className='separator'> </div>
+            <div className='circle'> <img src={atom} alt='front'/> </div>
+            <h1> Desarrollo y dirección de proyectos </h1>
+            <p> 
+                  He liderado equipos en el desarrollo de software, 
+                  aportando a la planificación y ejecución de proyectos con
+                  un enfoque centrado en la resolución de desafíos en el campo informático.
+            </p>
           </div>
         </div>
     </div>

@@ -38,13 +38,13 @@ export default function Projects() {
 
           <div className='card'> 
             <img src={p3} alt='p3'/> 
-            <p> Página de Bliss para la venta de zapatos por catálogo hecha con React. </p>
-            <a href='https://bliss-57wr0jp78-franzcastillo.vercel.app'> <button> Visitar </button> </a>
+            <p> Página de Bliss para la venta de zapatos por catálogo hecha con Vite. </p>
+            <a href='https://bliss-three.vercel.app/'> <button> Visitar </button> </a>
           </div>
 
           <div className='card'> 
             <img src={p4} alt='p4'/> 
-            <p> Recreación de la página web de MARINA hecha con Next.js. </p>
+            <p> Recreación de la página web de MARINA hecha con React. </p>
             <a href='https://p1-stw.web.app/'> <button> Visitar </button> </a>
           </div>
 

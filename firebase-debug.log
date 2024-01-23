@@ -1,0 +1,140 @@
+[debug] [2024-01-23T19:06:36.515Z] ----------------------------------------------------------------------
+[debug] [2024-01-23T19:06:36.519Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-23T19:06:36.519Z] CLI Version:   12.2.1
+[debug] [2024-01-23T19:06:36.520Z] Platform:      win32
+[debug] [2024-01-23T19:06:36.520Z] Node Version:  v20.9.0
+[debug] [2024-01-23T19:06:36.520Z] Time:          Tue Jan 23 2024 13:06:36 GMT-0600 (hora estándar central)
+[debug] [2024-01-23T19:06:36.520Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-23T19:06:36.524Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-01-23T19:06:36.687Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-23T19:06:36.688Z] > authorizing via signed-in user (esq21542@uvg.edu.gt)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Usuario\Documents\GitHub\Proyecto-3
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-01-23T19:06:36.906Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-01-23T19:06:36.906Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-23T19:06:55.715Z] Using project from CLI flag: fer-stw
+[debug] [2024-01-23T19:06:55.716Z] > refreshing access token with scopes: []
+[debug] [2024-01-23T19:06:55.718Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-23T19:06:55.718Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-23T19:06:55.934Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-23T19:06:55.934Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-23T19:06:55.941Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw [none]
+[debug] [2024-01-23T19:06:56.317Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw 200
+[debug] [2024-01-23T19:06:56.317Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw {"projectId":"fer-stw","projectNumber":"584460003358","displayName":"FER-STW","name":"projects/fer-stw","resources":{"hostingSite":"fer-stw"},"state":"ACTIVE","etag":"1_1893ca53-e53b-4971-bb2e-e5f368e4854a"}
+[info] i  Using project fer-stw (FER-STW) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-23T19:07:17.588Z] ----------------------------------------------------------------------
+[debug] [2024-01-23T19:07:17.592Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-23T19:07:17.592Z] CLI Version:   12.2.1
+[debug] [2024-01-23T19:07:17.592Z] Platform:      win32
+[debug] [2024-01-23T19:07:17.593Z] Node Version:  v20.9.0
+[debug] [2024-01-23T19:07:17.593Z] Time:          Tue Jan 23 2024 13:07:17 GMT-0600 (hora estándar central)
+[debug] [2024-01-23T19:07:17.593Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-23T19:07:17.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-23T19:07:17.687Z] > authorizing via signed-in user (esq21542@uvg.edu.gt)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Usuario\Documents\GitHub\Proyecto-3
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-23T19:07:21.431Z] Using project from CLI flag: fer-stw
+[debug] [2024-01-23T19:07:21.433Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw [none]
+[debug] [2024-01-23T19:07:21.909Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw 200
+[debug] [2024-01-23T19:07:21.909Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw {"projectId":"fer-stw","projectNumber":"584460003358","displayName":"FER-STW","name":"projects/fer-stw","resources":{"hostingSite":"fer-stw"},"state":"ACTIVE","etag":"1_1893ca53-e53b-4971-bb2e-e5f368e4854a"}
+[info] i  Using project fer-stw (FER-STW) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-23T19:07:56.282Z] ----------------------------------------------------------------------
+[debug] [2024-01-23T19:07:56.285Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-23T19:07:56.286Z] CLI Version:   12.2.1
+[debug] [2024-01-23T19:07:56.286Z] Platform:      win32
+[debug] [2024-01-23T19:07:56.286Z] Node Version:  v20.9.0
+[debug] [2024-01-23T19:07:56.287Z] Time:          Tue Jan 23 2024 13:07:56 GMT-0600 (hora estándar central)
+[debug] [2024-01-23T19:07:56.287Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-23T19:07:56.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-23T19:07:56.382Z] > authorizing via signed-in user (esq21542@uvg.edu.gt)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Usuario\Documents\GitHub\Proyecto-3
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-23T19:08:03.887Z] Using project from CLI flag: fer-stw
+[debug] [2024-01-23T19:08:03.889Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw [none]
+[debug] [2024-01-23T19:08:04.267Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw 200
+[debug] [2024-01-23T19:08:04.267Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fer-stw {"projectId":"fer-stw","projectNumber":"584460003358","displayName":"FER-STW","name":"projects/fer-stw","resources":{"hostingSite":"fer-stw"},"state":"ACTIVE","etag":"1_1893ca53-e53b-4971-bb2e-e5f368e4854a"}
+[info] i  Using project fer-stw (FER-STW) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
