@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fer-stw"
-  }
+    "default": "fer-esq",
+    "portfolio": "fer-esq"
+  },
+  "targets": {},
+  "etags": {}
 }
