@@ -1,55 +1,54 @@
-# Proyecto 3
-**Sistemas y tecnologías Web**
+# Portfolio
 
-  Este proyecto es un portafolio donde recopilo mis aprendizajes a lo largo del curso y de la carrera.
+  This project is a portfolio where I compile my learnings.
 
-  Enlace para acceder al sitio web del proyecto: https://fer-stw.web.app
+  Link to access the project website: https://fer-esq.web.app
 
-## Inicialización del proyecto
+## Project initialization
   
-  Para instalar las dependencias, en el directorio del proyecto, correr el comando:
+  To install the dependencies, in the project directory, run the command:
   ```bash
     npm install
   ```  
   
-  Para iniciar el proyecto en modo *developer*, en el directorio del proyecto, correr el comando:
+  To start the project in *developer* mode, in the project directory, run the command:
   ```bash
     npm start
   ```
   
-  Para crear un build del proyecto en modo *production*, en el directorio del proyecto, correr el comando:
+  To create a build of the project in *production* mode, in the project directory, run the command:
   ```bash
     npm run build
   ```
 
-## Estructura del proyecto
+## Project structure
 
   ### components
-  Aquí se encuentran los componentes del proyecto.
+  Here are the components of the project.
 
   ### font
-  Aquí se encuentran las fuentes del proyecto. La fuente utilizada es [Novatica](https://fonts.adobe.com/fonts/bc-novatica). 
+  Here are the sources for the project. The font used is [Novatica](https://fonts.adobe.com/fonts/bc-novatica).
 
   ### media
-  Aquí se encuentra la multimedia del proyecto (imagenes, iconos, logos, etc...).
+  Here you will find the multimedia of the project (images, icons, logos, etc...).
 
   ### styles
-  Aquí se encuentran los estilos del proyecto en scss.
+  Here are the project styles in scss.
 
   ### index.js
-  Contiene la estructura principal del proyecto.
+  Contains the main structure of the project.
 
 
-## Tecnologías utilizadas
+## Used technology
 
   ### [React](https://es.react.dev)
-  Se utilizó para crear el proyecto y los componentes del mismo.
+  It was used to create the project and its components.
 
   ### [Firebase](https://firebase.google.com/?hl=es)
-  Se utilizó para publicar el proyecto en un sitio web.
+  It was used to publish the project on a website.
 
   ### [Sass](https://sass-lang.com)
-  Se utilizó para aplicarle estilos al proyecto.
+  Used to apply styles to the project.
 
   ### [JavaScript](https://www.javascript.com)
-  Se utilizó para la programación del proyecto.
+  It was used for project scheduling.
